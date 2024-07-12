@@ -1,0 +1,30 @@
+Mearn App E-commerce :
+
+- npm init
+- npm i express
+- npm i mongoose
+- npm i -D nodemon dotenv
+
+- npm rebuild bcrypt --build-from-source
+- npm i jsonwebtoken
+- npm i express-validator
+
+
+
+- npx create-react-app client
+- cd client => with :
+-npm i redux react-redux redux-thunk react-router-dom axios
+
+
+
+
+
+- npm i -D concurrently 
+
+* Package.json:
+
+"scripts": {
+		"front": "cd client && npm start",
+		"back": "nodemon server",
+		"dev": "concurrently \"npm run front\" \"npm run back\""
+	},
